@@ -129,3 +129,12 @@ Steps:
 
 Expected Result:
 The user is redirected to the password reset page.
+
+# TC-LOGIN-12 Verify user can navigate to the registration page from the login page
+
+Steps:
+1. Open the login page
+2. Click the "Register Now" link
+
+Expected Result:
+The user is redirected to the registration page.
