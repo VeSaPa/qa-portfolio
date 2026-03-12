@@ -10,7 +10,7 @@ Steps:
 4. Click the Login button
 
 Expected Result: 
-User is susccesfully logged in and redirected to the dashboard.
+User is susccessfully logged in and redirected to the dashboard.
 
 ## Input validation
 
@@ -112,7 +112,7 @@ The entered characters in the password field are masked (displayed as dots)
 
 Steps:
 1. Open the login page
-2. Leave the email adress field empty
+2. Leave the email address field empty
 3. Leave the password field empty
 4. Observe the Login button
 
