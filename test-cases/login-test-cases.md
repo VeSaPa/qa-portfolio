@@ -48,3 +48,35 @@ Steps:
 4. Observe the validation message
 
 Expected Result: A validation message is displayed indicating that the email format is invalid.
+
+# TC-LOGIN-06 Verify email field trims leading and trailing spaces
+Preconditions: The email address is registered.
+Steps:
+1. Open the login page
+2. Enter the registered email address with leading and trailing spaces (e.g., " test@test.com ")
+3. Click on the password field 
+4. Observe the email field value
+
+Expected Result: Leading and trailing spaces are removed from the email field value.
+
+## Authentication Errors
+
+# TC-LOGIN-07 Verify error message appears when an incorrect password is entered
+Preconditions: User has a registered email address
+Steps:
+1. Open the login page
+2. Enter the registered email address
+3. Enter an incorrect password
+4. Click the Login button
+
+Expected Result: An authentication error message is displayed indicating that the email or password is incorrect.
+
+# TC-LOGIN-08 Verify error message appears when an unregistered email is entered
+
+Steps:
+1. Open the login page
+2. Enter an unregistered email address
+3. Enter any password
+4. Click the Login button
+
+Expected Result: An authentication error message is displayed indicating that the email or password is incorrect.
