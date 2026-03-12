@@ -2,7 +2,7 @@
 
 The login page allows existing users to access their accounts.
 
-Functional Requirements
+Functional Requirements:
 The user should be able to log in using a registered email and password.
 The email field must accept only valid email formats.
 The password field should hide the entered characters.
@@ -17,7 +17,7 @@ The user should be able to navigate to the registration page from the login page
 
 The registration page allows new users to create an account.
 
-Functional Requirements
+Functional Requirements:
 The user should be able to register with a valid email and password.
 The email must be unique and not already registered in the system.
 The password must contain at least 8 characters.
