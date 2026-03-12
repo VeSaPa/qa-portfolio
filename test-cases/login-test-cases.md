@@ -39,3 +39,12 @@ Steps:
 4. Observe the Login button
 
 Expected Result: The Login button is disabled and validation messages are displayed for both required fields.
+
+# TC-LOGIN-05 Verify system shows validation message for invalid email format
+Steps: 
+1. Open the login page
+2. Enter an invalid email format (e.g., test@com, test.com, test@)
+3. Enter a valid password
+4. Observe the validation message
+
+Expected Result: A validation message is displayed indicating that the email format is invalid.
