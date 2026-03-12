@@ -2,6 +2,7 @@
 
 # TC-LOGIN-01 Verify successful login with valid credentials 
 Preconditions: User has a registered account
+
 Steps:
 1. Open the login page
 2. Enter a valid email
@@ -13,6 +14,7 @@ Expected Result: User is susccesfully logged in and redirected to the dashboard.
 ## Input validation
 
 # TC-LOGIN-02 Verify login fails when email field is empty
+
 Steps:
 1. Open the login page
 2. Leave the email field empty
@@ -23,6 +25,7 @@ Expected Result: The Login button is disabled and a validation message is displa
 
 # TC-LOGIN-03 Verify login fails when password field is empty
 Preconditions: User has a registered account 
+
 Steps:
 1. Open the login page
 2. Enter a valid email
@@ -41,6 +44,7 @@ Steps:
 Expected Result: The Login button is disabled and validation messages are displayed for both required fields.
 
 # TC-LOGIN-05 Verify system shows validation message for invalid email format
+
 Steps: 
 1. Open the login page
 2. Enter an invalid email format (e.g., test@com, test.com, test@)
@@ -51,6 +55,7 @@ Expected Result: A validation message is displayed indicating that the email for
 
 # TC-LOGIN-06 Verify email field trims leading and trailing spaces
 Preconditions: The email address is registered.
+
 Steps:
 1. Open the login page
 2. Enter the registered email address with leading and trailing spaces (e.g., " test@test.com ")
@@ -63,6 +68,7 @@ Expected Result: Leading and trailing spaces are removed from the email field va
 
 # TC-LOGIN-07 Verify error message appears when an incorrect password is entered
 Preconditions: User has a registered email address
+
 Steps:
 1. Open the login page
 2. Enter the registered email address
