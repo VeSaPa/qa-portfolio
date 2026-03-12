@@ -9,7 +9,8 @@ Steps:
 3. Enter a valid password
 4. Click the Login button
 
-Expected Result: User is susccesfully logged in and redirected to the dashboard.
+Expected Result: 
+User is susccesfully logged in and redirected to the dashboard.
 
 ## Input validation
 
@@ -21,7 +22,8 @@ Steps:
 3. Enter a valid password
 4. Observe the Login button
 
-Expected Result: The Login button is disabled and a validation message is displayed.
+Expected Result: 
+The Login button is disabled and a validation message is displayed.
 
 # TC-LOGIN-03 Verify login fails when password field is empty
 Preconditions: User has a registered account 
@@ -32,7 +34,8 @@ Steps:
 3. Leave the password field empty
 4. Observe the Login button
 
-Expected Result: The Login button is disabled and a validation message is displayed.
+Expected Result: 
+The Login button is disabled and a validation message is displayed.
 
 # TC-LOGIN-04 Verify login fails when both email and password fields are empty
 Steps:
@@ -41,7 +44,8 @@ Steps:
 3. Leave the password field empty
 4. Observe the Login button
 
-Expected Result: The Login button is disabled and validation messages are displayed for both required fields.
+Expected Result: 
+The Login button is disabled and validation messages are displayed for both required fields.
 
 # TC-LOGIN-05 Verify system shows validation message for invalid email format
 
@@ -51,7 +55,8 @@ Steps:
 3. Enter a valid password
 4. Observe the validation message
 
-Expected Result: A validation message is displayed indicating that the email format is invalid.
+Expected Result: 
+A validation message is displayed indicating that the email format is invalid.
 
 # TC-LOGIN-06 Verify email field trims leading and trailing spaces
 Preconditions: The email address is registered.
@@ -62,7 +67,8 @@ Steps:
 3. Click on the password field 
 4. Observe the email field value
 
-Expected Result: Leading and trailing spaces are removed from the email field value.
+Expected Result:
+Leading and trailing spaces are removed from the email field value.
 
 ## Authentication Errors
 
@@ -75,7 +81,8 @@ Steps:
 3. Enter an incorrect password
 4. Click the Login button
 
-Expected Result: An authentication error message is displayed indicating that the email or password is incorrect.
+Expected Result: 
+An authentication error message is displayed indicating that the email or password is incorrect.
 
 # TC-LOGIN-08 Verify error message appears when an unregistered email is entered
 
@@ -85,4 +92,40 @@ Steps:
 3. Enter any password
 4. Click the Login button
 
-Expected Result: An authentication error message is displayed indicating that the email or password is incorrect.
+Expected Result:
+An authentication error message is displayed indicating that the email or password is incorrect.
+
+## UI / security
+
+# TC-LOGIN-09 Verify password field masks entered characters
+
+Steps:
+1. Open the login page
+2. Enter any email address
+3. Enter any password
+4. Observe the password field
+
+Expected Result:
+The entered characters in the password field are masked (displayed as dots)
+
+# TC-LOGIN-10 Verify Login button is disabled when required fields are empty
+
+Steps:
+1. Open the login page
+2. Leave the email adress field empty
+3. Leave the password field empty
+4. Observe the Login button
+
+Expected Result:
+The Login button is disabled and cannot be clicked.
+
+## Navigation
+
+# TC-LOGIN-11 Verify "Forgot Password" link redirects to password reset page
+
+Steps:
+1. Open the login page
+2. Click the "Forgot Password" link
+
+Expected Result:
+The user is redirected to the password reset page.
