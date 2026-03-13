@@ -1,6 +1,6 @@
 ## Positive scenario
 
-# TC-REGISTRATION-01 Verify user can register successfully with valid email and password
+# TC-REG-01 Verify user can register successfully with valid email and password
 
 Steps:
 1. Open the registration page
