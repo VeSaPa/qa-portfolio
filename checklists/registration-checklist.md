@@ -1,0 +1,5 @@
+- [ ] Verify successful registration
+- [ ] Verify validation for empty email field
+- [ ] Verify validation for empty password field
+- [ ] Verify validation when both email and password fields are empty
+- [ ] 
