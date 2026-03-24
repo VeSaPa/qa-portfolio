@@ -1,4 +1,3 @@
-
 # QA Testing Portfolio
 
 Hello, my name is Velizara Parulova.
@@ -20,7 +19,7 @@ Examples of manual test cases for web application features.
 Sample bug reports written in a structured format.
 
 ### Checklists
-Testing checklists used for quick verification of functionality.
+Testing checklists used for quick verification of application functionality.
 
 ### API Testing
 Basic notes and examples related to API testing.
