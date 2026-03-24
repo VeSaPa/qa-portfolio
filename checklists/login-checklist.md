@@ -1,0 +1,12 @@
+- [ ] Verify successful login
+- [ ] Verify validation for empty email field
+- [ ] Verify validation for empty password field 
+- [ ] Verify validation when both email and password fields are empty
+- [ ] Verify validation message for invalid email format
+- [ ] Verify authentication error message for incorrect password
+- [ ] Verify authentication error message for unregistered email
+- [ ] Verify password field masks entered characters
+- [ ] Verify Login button is disabled when required fields are empty
+- [ ] Verify "Forgot password" link
+- [ ] Verify navigation to the registration page
+
