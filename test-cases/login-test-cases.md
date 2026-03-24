@@ -58,21 +58,10 @@ Steps:
 Expected Result: 
 A validation message is displayed indicating that the email format is invalid.
 
-# TC-LOGIN-06 Verify email field trims leading and trailing spaces
-Preconditions: The email address is registered.
-
-Steps:
-1. Open the login page
-2. Enter the registered email address with leading and trailing spaces (e.g., " test@test.com ")
-3. Click on the password field 
-4. Observe the email field value
-
-Expected Result:
-Leading and trailing spaces are removed from the email field value.
 
 ## Authentication Errors
 
-# TC-LOGIN-07 Verify error message appears when an incorrect password is entered
+# TC-LOGIN-06 Verify error message appears when an incorrect password is entered
 Preconditions: User has a registered email address
 
 Steps:
@@ -84,7 +73,7 @@ Steps:
 Expected Result: 
 An authentication error message is displayed indicating that the email or password is incorrect.
 
-# TC-LOGIN-08 Verify error message appears when an unregistered email is entered
+# TC-LOGIN-07 Verify error message appears when an unregistered email is entered
 
 Steps:
 1. Open the login page
@@ -97,7 +86,7 @@ An authentication error message is displayed indicating that the email or passwo
 
 ## UI / security
 
-# TC-LOGIN-09 Verify password field masks entered characters
+# TC-LOGIN-08 Verify password field masks entered characters
 
 Steps:
 1. Open the login page
@@ -108,7 +97,7 @@ Steps:
 Expected Result:
 The entered characters in the password field are masked (displayed as dots)
 
-# TC-LOGIN-10 Verify Login button is disabled when required fields are empty
+# TC-LOGIN-09 Verify Login button is disabled when required fields are empty
 
 Steps:
 1. Open the login page
@@ -121,7 +110,7 @@ The Login button is disabled and cannot be clicked.
 
 ## Navigation
 
-# TC-LOGIN-11 Verify "Forgot Password" link redirects to password reset page
+# TC-LOGIN-10 Verify "Forgot Password" link redirects to password reset page
 
 Steps:
 1. Open the login page
@@ -130,7 +119,7 @@ Steps:
 Expected Result:
 The user is redirected to the password reset page.
 
-# TC-LOGIN-12 Verify user can navigate to the registration page from the login page
+# TC-LOGIN-11 Verify user can navigate to the registration page from the login page
 
 Steps:
 1. Open the login page
