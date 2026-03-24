@@ -1,9 +1,10 @@
 # Bug Reports
 
-This folder contains sample bug reports written during QA practice.
+This folder contains sample bug reports created during QA practice.
 
 Each bug report includes:
--Title
+
+- Title
 - Environment
 - Steps to reproduce
 - Expected result
