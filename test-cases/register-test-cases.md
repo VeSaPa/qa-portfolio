@@ -87,3 +87,56 @@ Expected Result:
 A validation message is displayed indicating that the password and confirm password do not match
 
 
+## Account validation
+
+# TC-REG-08 Verify registration fails when the email is already registered
+
+Preconditions:
+The email `test@test.com` is already registered.
+
+Steps:
+1. Open the registration page
+2. Enter 'test@test.com' in the email field
+3. Enter a valid password (e.g., `Pass1234`)
+4. Enter the same password in the confirm password field
+5. Click the Register button
+
+Expected Result:
+A validation message is displayed indicating that the email is already registered.
+
+## UI / Security
+
+# TC-REG-09 Verify the password field masks entered characters
+
+Steps:
+1. Open the registration page
+2. Enter any value in the email field
+3. Enter any value in the password field
+4. Enter any value in the confirm password field
+5. Observe the password field
+
+Expected Result:
+The entered characters in the password field are masked while typing.
+
+# TC-REG-10 Verify the confirm password field masks entered characters
+
+Steps:
+1. Open the registration page
+2. Enter any value in the email field
+3. Enter any value in the password field
+4. Enter any value in the confirm password field
+5. Observe the confirm password field
+
+Expected Result:
+The entered characters in the confirm password field are masked while typing.
+
+## Navigation 
+
+# TC-REG-11 Verify user can navigate to the login page from the registration page
+
+Steps:
+1. Open the registration page
+2. Click the Login link
+
+Expected Result: 
+The user is redirected to the login page.
