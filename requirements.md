@@ -12,8 +12,8 @@ Functional Requirements:
 - The login button should be disabled when required fields are empty.
 Navigation
 
-The login page should contain a "Forgot password" link.
-The user should be able to navigate to the registration page from the login page.
+- The login page should contain a "Forgot password" link.
+- The user should be able to navigate to the registration page from the login page.
 
 # Registration Page Requirements
 
