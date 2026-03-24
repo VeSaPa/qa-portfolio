@@ -8,7 +8,7 @@ This repository contains examples of my QA practice and learning progress. It in
 
 I am currently learning Manual QA through coursework and self-practice. I am interested in software testing because it requires attention to detail, logical thinking and a structured way of working.
 
-My previous work experience helped me develop accuracy, organization and responsibility, which I believe are valuable skills in QA.
+My previous work experience helped me develop organization, responsibility and a careful approach to working with structured information, which I believe are valuable skills in QA.
 
 ## Contents
 
