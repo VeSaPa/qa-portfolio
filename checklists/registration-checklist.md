@@ -2,4 +2,10 @@
 - [ ] Verify validation for empty email field
 - [ ] Verify validation for empty password field
 - [ ] Verify validation when both email and password fields are empty
-- [ ] 
+- [ ] Verify validation for invalid email format
+- [ ] Verify validation when password is shorter than the required length
+- [ ] Verify validation when password and confirm password do not match
+- [ ] Verify registration fails when the email is already registered
+- [ ] Verify password field masks entered characters
+- [ ] Verify confirm password field masks entered characters
+- [ ] Verify navigation to the login page
