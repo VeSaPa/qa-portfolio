@@ -4,12 +4,12 @@ The login page allows existing users to access their accounts.
 
 Functional Requirements:
 
-The user should be able to log in using a registered email and password.
-The email field must accept only valid email formats.
-The password field should hide the entered characters.
-If the user enters invalid credentials, the system should display an error message.
-If the login is successful, the user should be redirected to the dashboard.
-The login button should be disabled when required fields are empty.
+- The user should be able to log in using a registered email and password.
+- The email field must accept only valid email formats.
+- The password field should hide the entered characters.
+- If the user enters invalid credentials, the system should display an error message.
+- If the login is successful, the user should be redirected to the dashboard.
+- The login button should be disabled when required fields are empty.
 Navigation
 
 The login page should contain a "Forgot password" link.
