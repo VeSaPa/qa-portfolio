@@ -30,16 +30,16 @@ Sample functional requirements used as a basis for writing test cases.
 
 ## Tools and Topics
 
-Manual testing fundamentals
-Test case design
-Bug reporting
-Checklists
-SDLC / STLC
-Jira
-TestRail
-Qase
-Postman
-Basic SQL / MySQL
+- Manual testing fundamentals
+- Test case design
+- Bug reporting
+- Checklists
+- SDLC / STLC
+- Jira
+- TestRail
+- Qase
+- Postman
+- Basic SQL / MySQL
 
 ## Purpose
 
