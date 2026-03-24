@@ -21,9 +21,9 @@ The registration page allows new users to create an account.
 
 Functional Requirements:
 
-The user should be able to register with a valid email and password.
-The email must be unique and not already registered in the system.
-The password must contain at least 8 characters.
-The user must confirm the password before submitting the form.
-If the passwords do not match, the system should display a validation message.
-After successful registration, the user should be redirected to the dashboard.
+- The user should be able to register with a valid email and password.
+- The email must be unique and not already registered in the system.
+- The password must contain at least 8 characters.
+- The user must confirm the password before submitting the form.
+- If the passwords do not match, the system should display a validation message.
+- After successful registration, the user should be redirected to the dashboard.
