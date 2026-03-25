@@ -1,4 +1,5 @@
-# Bug Report: No error message is displayed when an incorrect password is entered
+# Bug Report: 
+No error message is displayed when an incorrect password is entered
 
 ## Environment
 Browser: 
