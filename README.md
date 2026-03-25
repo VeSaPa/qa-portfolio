@@ -6,7 +6,7 @@ This repository contains examples of my QA practice and learning progress. It in
 
 ## About Me
 
-I am currently learning Manual QA through coursework and self-practice. I am interested in software testing because it requires attention to detail, logical thinking and a structured way of working.
+I am currently learning Manual QA through a Manual Software Testing course and self-practice. I am interested in software testing because it requires attention to detail, logical thinking and a structured way of working.
 
 My previous work experience helped me develop organization, responsibility and a careful approach to working with structured information, which I believe are valuable skills in QA.
 
@@ -28,10 +28,10 @@ Basic notes and examples related to API testing.
 Sample functional requirements used as a basis for writing test cases.
 
 ## Tools and Topics
-
+During my Manual QA course, I was introduced to the following tools and topics:
 - Manual testing fundamentals
-- Test case design
-- Bug reporting
+- Writing test cases
+- Writing bug reports
 - Checklists
 - SDLC / STLC
 - Jira
