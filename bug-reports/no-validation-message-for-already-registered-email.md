@@ -1,4 +1,5 @@
-# Bug Report: No validation message is displayed for an already registered email address
+# Bug Report: 
+No validation message is displayed for an already registered email address
 
 ## Environment:
 Browser: Chrome
