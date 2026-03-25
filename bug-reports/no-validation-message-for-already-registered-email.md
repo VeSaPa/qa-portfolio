@@ -1,4 +1,4 @@
-# Bug Report: Registration accepts an already registered email address
+# Bug Report: No validation message is displayed for an already registered email address
 
 ## Environment:
 Browser: Chrome
@@ -6,7 +6,8 @@ OS: macOS
 Environment: Test environment
 
 ## Description: 
-Registration form accepts already registered email address
+No validation message is displayed when the registration form is submitted with an already registered email address.
+
 
 ## Preconditions:
 
@@ -20,10 +21,10 @@ The email `test@test.com` is already registered.
 5. Click the Register button
 
 ## Expected Result:
-A validation message is displayed , indicating that the email address is already registered.
+A validation message is displayed, indicating that the email address is already registered.
 
 ## Actual Result:
-No validation message is displayed, and the email address is accepted.
+No validation message is displayed after submitting the form with an already registered email address.
 
 ## Severity: 
 High
