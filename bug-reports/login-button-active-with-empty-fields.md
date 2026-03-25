@@ -1,4 +1,5 @@
-# Bug Report: Login button is enabled when email and password fields are empty
+# Bug Report: 
+Login button is enabled when email and password fields are empty
 
 ## Environment
 Browser:
