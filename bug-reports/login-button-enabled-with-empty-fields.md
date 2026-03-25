@@ -25,7 +25,7 @@ The Login button should be disabled until the required fields are filled.
 The Login button is enabled even when the email and password fields are empty.
 
 ## Severity
-Meduim
+Medium
 
 ## Priority
 Medium
