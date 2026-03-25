@@ -10,7 +10,7 @@ Environment:
 Test environment
 
 ## Description
-After entering an incorrect password, no authentication error message is displayed.
+No authentication error message is displayed when an incorrect password is entered.
 
 ## Preconditions
 The email address `test@test.com` is already registered with password `Pass1234`.
