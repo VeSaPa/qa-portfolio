@@ -4,7 +4,7 @@ This folder contains sample bug reports created during QA practice.
 
 Each bug report includes:
 
-- Title
+- A bug title
 - Environment
 - Steps to reproduce
 - Expected result
